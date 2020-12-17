@@ -2,7 +2,6 @@ from fastapi import  HTTPException
 from fastapi import  FastAPI
 import db
 
-
 app = FastAPI()
 
 @app.get("/registros/consultar/")
